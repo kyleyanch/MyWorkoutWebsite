@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FitLife — Health & Exercise Hub</title>
+
+  <!-- Your Web Awesome Free Kit -->
+  <script src="https://kit.webawesome.com/d714b93f36734c52.js" crossorigin="anonymous"></script>
+
+  <style>
+    :root {
+      --brand: #00b894;
+      --bg: #f5f9f6;
+      --card: #ffffff;
+      --muted: #6b7280;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: #0f172a;
+      line-height: 1.5;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--brand), #55efc4);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: clamp(1.5rem, 3vw, 2.25rem);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.6rem;
+    }
+
+    .icons-row {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      align-items: center;
+      flex-wrap: wrap;
+      font-size: 1.25rem;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    wa-card {
+      --wa-card-background: var(--card);
+      border-radius: 12px;
+      padding: 1.25rem;
+      box-shadow: 0 6px 22px rgba(8, 15, 30, 0.06);
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      min-height: 180px;
+      justify-content: space-between;
+    }
+
+    .card-head {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .card-head wa-icon {
+      font-size: 2.25rem;
+      color: var(--brand);
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .cta-row {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 0.5rem;
+    }
+
+    .icon-hover wa-icon {
+      transition: transform 0.22s ease;
+    }
+
+    .icon-hover wa-icon:hover {
+      transform: scale(1.12);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.25rem;
+      color: #7c8594;
+      font-size: 0.9rem;
+      margin-top: 1.5rem;
+    }
+
+    @media (max-width: 520px) {
+      .icons-row {
+        font-size: 1rem;
+        gap: 0.65rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>
+      <wa-icon name="dumbbell" label="Dumbbell"></wa-icon>
+      FitLife Hub
+    </h1>
+    <p class="muted" style="margin:.5rem 0 0;">Your all-in-one destination for health, fitness, and wellbeing.</p>
+
+    <!-- Header icons -->
+    <div class="icons-row icon-hover" aria-hidden="true">
+      <!-- Solid -->
+      <wa-icon name="person-running" label="Running"></wa-icon>
+
+      <!-- Simple healthy food icon -->
+      <wa-icon name="apple-whole" label="Nutrition"></wa-icon>
+
+      <!-- Hydration -->
+      <wa-icon name="water" label="Hydration"></wa-icon>
+
+      <!-- Animated spin -->
+      <wa-animation name="spin" play>
+        <wa-icon name="heart" label="Heart Health"></wa-icon>
+      </wa-animation>
+
+      <!-- Brand example -->
+      <wa-icon family="brands" name="apple" label="Apple"></wa-icon>
+    </div>
+  </header>
+
+  <main>
+    <!-- Workouts -->
+    <wa-card>
+      <div class="card-head">
+        <wa-icon name="dumbbell" label="Workout"></wa-icon>
+        <div>
+          <div style="font-weight:600">Workout Routines</div>
+          <div class="muted" style="font-size:.95rem;">Strength & endurance training</div>
+        </div>
+      </div>
+
+      <div class="muted" style="margin-top:.5rem;">
+        Explore guided routines and daily challenges that keep you moving toward your goals.
+      </div>
+
+      <div class="cta-row">
+        <wa-button variant="brand" size="small">
+          <wa-icon slot="start" name="bolt-lightning"></wa-icon>
+          Start Workout
+        </wa-button>
+      </div>
+    </wa-card>
+
+    <!-- Nutrition -->
+    <wa-card>
+      <div class="card-head">
+        <wa-icon name="bowl-food" label="Nutrition"></wa-icon>
+        <div>
+          <div style="font-weight:600">Healthy Recipes</div>
+          <div class="muted" style="font-size:.95rem;">Balanced meals for energy</div>
+        </div>
+      </div>
+
+      <div class="muted" style="margin-top:.5rem;">
+        Discover easy, tasty, and nutritious meals to fuel your workouts and recovery.
+      </div>
+
+      <div class="cta-row">
+        <wa-button variant="neutral" size="small">
+          <wa-icon slot="start" name="utensils"></wa-icon>
+          View Recipes
+        </wa-button>
+      </div>
+    </wa-card>
+
+    <!-- Sleep -->
+    <wa-card>
+      <div class="card-head">
+        <wa-icon name="bed" label="Sleep"></wa-icon>
+        <div>
+          <div style="font-weight:600">Rest & Recovery</div>
+          <div class="muted" style="font-size:.95rem;">Sleep, mobility, relaxation</div>
+        </div>
+      </div>
+
+      <div class="muted" style="margin-top:.5rem;">
+        Learn how to rest smarter, recover faster, and wake up ready to perform.
+      </div>
+
+      <div class="cta-row">
+        <wa-button variant="brand" size="small">
+          <wa-icon slot="start" name="moon"></wa-icon>
+          Sleep Tips
+        </wa-button>
+      </div>
+    </wa-card>
+
+    <!-- Mindset -->
+    <wa-card>
+      <div class="card-head">
+        <wa-animation name="fade" play>
+          <wa-icon name="brain" label="Mind"></wa-icon>
+        </wa-animation>
+        <div>
+          <div style="font-weight:600">Mind & Mindfulness</div>
+          <div class="muted" style="font-size:.95rem;">Focus and meditation</div>
+        </div>
+      </div>
+
+      <div class="muted" style="margin-top:.5rem;">
+        Short meditations and breathing exercises to keep you calm and centered.
+      </div>
+
+      <div class="cta-row">
+        <wa-button appearance="outlined" size="small">
+          <wa-icon slot="start" name="spa"></wa-icon>
+          Begin Session
+        </wa-button>
+      </div>
+    </wa-card>
+  </main>
+
+  <footer>
+    <div style="display:inline-flex;align-items:center;gap:.3rem;">
+      <wa-icon name="copyright"></wa-icon>
+      2025 FitLife Hub
+    </div>
+    <div class="muted" style="margin-top:.3rem;">Built with Web Awesome Free Components</div>
+  </footer>
+</body>
+</html>
