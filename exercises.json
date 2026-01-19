@@ -1,0 +1,1879 @@
+{
+  "exercises": [
+    {
+      "name": "Barbell Bench Press",
+      "primary_muscle_group": "pectoralis major",
+      "body_part": "chest",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bench",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Heavy pressing movements may require a spotter.",
+      "notes": "Focus on controlled range of motion."
+    },
+    {
+      "name": "Incline Bench Press",
+      "primary_muscle_group": "pectoralis major",
+      "body_part": "chest",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bench",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Heavy pressing movements may require a spotter.",
+      "notes": "Focus on controlled range of motion."
+    },
+    {
+      "name": "Decline Bench Press",
+      "primary_muscle_group": "pectoralis major",
+      "body_part": "chest",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bench",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Heavy pressing movements may require a spotter.",
+      "notes": "Focus on controlled range of motion."
+    },
+    {
+      "name": "Dumbbell Bench Press",
+      "primary_muscle_group": "pectoralis major",
+      "body_part": "chest",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bench",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Heavy pressing movements may require a spotter.",
+      "notes": "Focus on controlled range of motion."
+    },
+    {
+      "name": "Incline Dumbbell Press",
+      "primary_muscle_group": "pectoralis major",
+      "body_part": "chest",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bench",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Heavy pressing movements may require a spotter.",
+      "notes": "Focus on controlled range of motion."
+    },
+    {
+      "name": "Decline Dumbbell Press",
+      "primary_muscle_group": "pectoralis major",
+      "body_part": "chest",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bench",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Heavy pressing movements may require a spotter.",
+      "notes": "Focus on controlled range of motion."
+    },
+    {
+      "name": "Chest Press Machine",
+      "primary_muscle_group": "pectoralis major",
+      "body_part": "chest",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bench",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Heavy pressing movements may require a spotter.",
+      "notes": "Focus on controlled range of motion."
+    },
+    {
+      "name": "Smith Machine Bench Press",
+      "primary_muscle_group": "pectoralis major",
+      "body_part": "chest",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bench",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Heavy pressing movements may require a spotter.",
+      "notes": "Focus on controlled range of motion."
+    },
+    {
+      "name": "Dumbbell Fly",
+      "primary_muscle_group": "pectoralis major",
+      "body_part": "chest",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bench",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Heavy pressing movements may require a spotter.",
+      "notes": "Focus on controlled range of motion."
+    },
+    {
+      "name": "Incline Dumbbell Fly",
+      "primary_muscle_group": "pectoralis major",
+      "body_part": "chest",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bench",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Heavy pressing movements may require a spotter.",
+      "notes": "Focus on controlled range of motion."
+    },
+    {
+      "name": "Cable Fly",
+      "primary_muscle_group": "pectoralis major",
+      "body_part": "chest",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bench",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Heavy pressing movements may require a spotter.",
+      "notes": "Focus on controlled range of motion."
+    },
+    {
+      "name": "Low Cable Fly",
+      "primary_muscle_group": "pectoralis major",
+      "body_part": "chest",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bench",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Heavy pressing movements may require a spotter.",
+      "notes": "Focus on controlled range of motion."
+    },
+    {
+      "name": "High Cable Fly",
+      "primary_muscle_group": "pectoralis major",
+      "body_part": "chest",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bench",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Heavy pressing movements may require a spotter.",
+      "notes": "Focus on controlled range of motion."
+    },
+    {
+      "name": "Pec Deck",
+      "primary_muscle_group": "pectoralis major",
+      "body_part": "chest",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bench",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Heavy pressing movements may require a spotter.",
+      "notes": "Focus on controlled range of motion."
+    },
+    {
+      "name": "Single-Arm Dumbbell Press",
+      "primary_muscle_group": "pectoralis major",
+      "body_part": "chest",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bench",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Heavy pressing movements may require a spotter.",
+      "notes": "Focus on controlled range of motion."
+    },
+    {
+      "name": "Back Squat",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Front Squat",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Goblet Squat",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Leg Press",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Hack Squat",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Bulgarian Split Squat",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Walking Lunge",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Reverse Lunge",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Romanian Deadlift",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Conventional Deadlift",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Sumo Deadlift",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Hip Thrust",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Glute Bridge",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Leg Extension",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Seated Leg Curl",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Lying Leg Curl",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Standing Calf Raise",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Seated Calf Raise",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Smith Machine Squat",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Box Squat",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Pause Squat",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Step-Ups",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Cable Pull Through",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Landmine Squat",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Single-Leg Press",
+      "primary_muscle_group": "quadriceps",
+      "body_part": "legs",
+      "secondary_muscle_group": "glutes",
+      "secondary_body_part": "hips",
+      "accessories": [
+        "barbell",
+        "machine",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 2,
+      "safety_level_reason": "Incorrect form can stress knees or lower back.",
+      "notes": "Maintain neutral spine."
+    },
+    {
+      "name": "Pull-Up",
+      "primary_muscle_group": "latissimus dorsi",
+      "body_part": "back",
+      "secondary_muscle_group": "biceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bar",
+        "cable",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Poor posture may cause shoulder strain.",
+      "notes": "Retract shoulder blades during pulls."
+    },
+    {
+      "name": "Chin-Up",
+      "primary_muscle_group": "latissimus dorsi",
+      "body_part": "back",
+      "secondary_muscle_group": "biceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bar",
+        "cable",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Poor posture may cause shoulder strain.",
+      "notes": "Retract shoulder blades during pulls."
+    },
+    {
+      "name": "Lat Pulldown",
+      "primary_muscle_group": "latissimus dorsi",
+      "body_part": "back",
+      "secondary_muscle_group": "biceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bar",
+        "cable",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Poor posture may cause shoulder strain.",
+      "notes": "Retract shoulder blades during pulls."
+    },
+    {
+      "name": "Wide-Grip Pulldown",
+      "primary_muscle_group": "latissimus dorsi",
+      "body_part": "back",
+      "secondary_muscle_group": "biceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bar",
+        "cable",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Poor posture may cause shoulder strain.",
+      "notes": "Retract shoulder blades during pulls."
+    },
+    {
+      "name": "Seated Cable Row",
+      "primary_muscle_group": "latissimus dorsi",
+      "body_part": "back",
+      "secondary_muscle_group": "biceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bar",
+        "cable",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Poor posture may cause shoulder strain.",
+      "notes": "Retract shoulder blades during pulls."
+    },
+    {
+      "name": "Barbell Row",
+      "primary_muscle_group": "latissimus dorsi",
+      "body_part": "back",
+      "secondary_muscle_group": "biceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bar",
+        "cable",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Poor posture may cause shoulder strain.",
+      "notes": "Retract shoulder blades during pulls."
+    },
+    {
+      "name": "Pendlay Row",
+      "primary_muscle_group": "latissimus dorsi",
+      "body_part": "back",
+      "secondary_muscle_group": "biceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bar",
+        "cable",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Poor posture may cause shoulder strain.",
+      "notes": "Retract shoulder blades during pulls."
+    },
+    {
+      "name": "Single-Arm Dumbbell Row",
+      "primary_muscle_group": "latissimus dorsi",
+      "body_part": "back",
+      "secondary_muscle_group": "biceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bar",
+        "cable",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Poor posture may cause shoulder strain.",
+      "notes": "Retract shoulder blades during pulls."
+    },
+    {
+      "name": "T-Bar Row",
+      "primary_muscle_group": "latissimus dorsi",
+      "body_part": "back",
+      "secondary_muscle_group": "biceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bar",
+        "cable",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Poor posture may cause shoulder strain.",
+      "notes": "Retract shoulder blades during pulls."
+    },
+    {
+      "name": "Machine Row",
+      "primary_muscle_group": "latissimus dorsi",
+      "body_part": "back",
+      "secondary_muscle_group": "biceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bar",
+        "cable",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Poor posture may cause shoulder strain.",
+      "notes": "Retract shoulder blades during pulls."
+    },
+    {
+      "name": "Dead Hang",
+      "primary_muscle_group": "latissimus dorsi",
+      "body_part": "back",
+      "secondary_muscle_group": "biceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bar",
+        "cable",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Poor posture may cause shoulder strain.",
+      "notes": "Retract shoulder blades during pulls."
+    },
+    {
+      "name": "Straight Arm Pulldown",
+      "primary_muscle_group": "latissimus dorsi",
+      "body_part": "back",
+      "secondary_muscle_group": "biceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bar",
+        "cable",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Poor posture may cause shoulder strain.",
+      "notes": "Retract shoulder blades during pulls."
+    },
+    {
+      "name": "Face Pull",
+      "primary_muscle_group": "latissimus dorsi",
+      "body_part": "back",
+      "secondary_muscle_group": "biceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bar",
+        "cable",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Poor posture may cause shoulder strain.",
+      "notes": "Retract shoulder blades during pulls."
+    },
+    {
+      "name": "Inverted Row",
+      "primary_muscle_group": "latissimus dorsi",
+      "body_part": "back",
+      "secondary_muscle_group": "biceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bar",
+        "cable",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Poor posture may cause shoulder strain.",
+      "notes": "Retract shoulder blades during pulls."
+    },
+    {
+      "name": "Rack Pull",
+      "primary_muscle_group": "latissimus dorsi",
+      "body_part": "back",
+      "secondary_muscle_group": "biceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bar",
+        "cable",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Poor posture may cause shoulder strain.",
+      "notes": "Retract shoulder blades during pulls."
+    },
+    {
+      "name": "Meadows Row",
+      "primary_muscle_group": "latissimus dorsi",
+      "body_part": "back",
+      "secondary_muscle_group": "biceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bar",
+        "cable",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Poor posture may cause shoulder strain.",
+      "notes": "Retract shoulder blades during pulls."
+    },
+    {
+      "name": "Kroc Row",
+      "primary_muscle_group": "latissimus dorsi",
+      "body_part": "back",
+      "secondary_muscle_group": "biceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bar",
+        "cable",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Poor posture may cause shoulder strain.",
+      "notes": "Retract shoulder blades during pulls."
+    },
+    {
+      "name": "Cable Row Wide",
+      "primary_muscle_group": "latissimus dorsi",
+      "body_part": "back",
+      "secondary_muscle_group": "biceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bar",
+        "cable",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Poor posture may cause shoulder strain.",
+      "notes": "Retract shoulder blades during pulls."
+    },
+    {
+      "name": "Cable Row Close",
+      "primary_muscle_group": "latissimus dorsi",
+      "body_part": "back",
+      "secondary_muscle_group": "biceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bar",
+        "cable",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Poor posture may cause shoulder strain.",
+      "notes": "Retract shoulder blades during pulls."
+    },
+    {
+      "name": "Landmine Row",
+      "primary_muscle_group": "latissimus dorsi",
+      "body_part": "back",
+      "secondary_muscle_group": "biceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "bar",
+        "cable",
+        "weights"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Poor posture may cause shoulder strain.",
+      "notes": "Retract shoulder blades during pulls."
+    },
+    {
+      "name": "Overhead Press",
+      "primary_muscle_group": "deltoids",
+      "body_part": "shoulders",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "dumbbells",
+        "barbell",
+        "machine"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Overhead loading increases joint demand.",
+      "notes": "Do not lock elbows overhead."
+    },
+    {
+      "name": "Seated Dumbbell Press",
+      "primary_muscle_group": "deltoids",
+      "body_part": "shoulders",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "dumbbells",
+        "barbell",
+        "machine"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Overhead loading increases joint demand.",
+      "notes": "Do not lock elbows overhead."
+    },
+    {
+      "name": "Arnold Press",
+      "primary_muscle_group": "deltoids",
+      "body_part": "shoulders",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "dumbbells",
+        "barbell",
+        "machine"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Overhead loading increases joint demand.",
+      "notes": "Do not lock elbows overhead."
+    },
+    {
+      "name": "Lateral Raise",
+      "primary_muscle_group": "deltoids",
+      "body_part": "shoulders",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "dumbbells",
+        "barbell",
+        "machine"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Overhead loading increases joint demand.",
+      "notes": "Do not lock elbows overhead."
+    },
+    {
+      "name": "Cable Lateral Raise",
+      "primary_muscle_group": "deltoids",
+      "body_part": "shoulders",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "dumbbells",
+        "barbell",
+        "machine"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Overhead loading increases joint demand.",
+      "notes": "Do not lock elbows overhead."
+    },
+    {
+      "name": "Front Raise",
+      "primary_muscle_group": "deltoids",
+      "body_part": "shoulders",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "dumbbells",
+        "barbell",
+        "machine"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Overhead loading increases joint demand.",
+      "notes": "Do not lock elbows overhead."
+    },
+    {
+      "name": "Plate Raise",
+      "primary_muscle_group": "deltoids",
+      "body_part": "shoulders",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "dumbbells",
+        "barbell",
+        "machine"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Overhead loading increases joint demand.",
+      "notes": "Do not lock elbows overhead."
+    },
+    {
+      "name": "Upright Row",
+      "primary_muscle_group": "deltoids",
+      "body_part": "shoulders",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "dumbbells",
+        "barbell",
+        "machine"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Overhead loading increases joint demand.",
+      "notes": "Do not lock elbows overhead."
+    },
+    {
+      "name": "Rear Delt Fly",
+      "primary_muscle_group": "deltoids",
+      "body_part": "shoulders",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "dumbbells",
+        "barbell",
+        "machine"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Overhead loading increases joint demand.",
+      "notes": "Do not lock elbows overhead."
+    },
+    {
+      "name": "Reverse Pec Deck",
+      "primary_muscle_group": "deltoids",
+      "body_part": "shoulders",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "dumbbells",
+        "barbell",
+        "machine"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Overhead loading increases joint demand.",
+      "notes": "Do not lock elbows overhead."
+    },
+    {
+      "name": "Face Pull High",
+      "primary_muscle_group": "deltoids",
+      "body_part": "shoulders",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "dumbbells",
+        "barbell",
+        "machine"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Overhead loading increases joint demand.",
+      "notes": "Do not lock elbows overhead."
+    },
+    {
+      "name": "Z Press",
+      "primary_muscle_group": "deltoids",
+      "body_part": "shoulders",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "dumbbells",
+        "barbell",
+        "machine"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Overhead loading increases joint demand.",
+      "notes": "Do not lock elbows overhead."
+    },
+    {
+      "name": "Landmine Press",
+      "primary_muscle_group": "deltoids",
+      "body_part": "shoulders",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "dumbbells",
+        "barbell",
+        "machine"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Overhead loading increases joint demand.",
+      "notes": "Do not lock elbows overhead."
+    },
+    {
+      "name": "Machine Shoulder Press",
+      "primary_muscle_group": "deltoids",
+      "body_part": "shoulders",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "dumbbells",
+        "barbell",
+        "machine"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Overhead loading increases joint demand.",
+      "notes": "Do not lock elbows overhead."
+    },
+    {
+      "name": "Single-Arm Cable Raise",
+      "primary_muscle_group": "deltoids",
+      "body_part": "shoulders",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "dumbbells",
+        "barbell",
+        "machine"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "push",
+      "mechanics": "compound",
+      "difficulty": "intermediate",
+      "safety_level": 3,
+      "safety_level_reason": "Overhead loading increases joint demand.",
+      "notes": "Do not lock elbows overhead."
+    },
+    {
+      "name": "Barbell Curl",
+      "primary_muscle_group": "biceps brachii",
+      "body_part": "upper arms",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "barbell",
+        "dumbbells",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Low risk when using moderate weights.",
+      "notes": "Avoid swinging or momentum."
+    },
+    {
+      "name": "EZ-Bar Curl",
+      "primary_muscle_group": "biceps brachii",
+      "body_part": "upper arms",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "barbell",
+        "dumbbells",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Low risk when using moderate weights.",
+      "notes": "Avoid swinging or momentum."
+    },
+    {
+      "name": "Dumbbell Curl",
+      "primary_muscle_group": "biceps brachii",
+      "body_part": "upper arms",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "barbell",
+        "dumbbells",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Low risk when using moderate weights.",
+      "notes": "Avoid swinging or momentum."
+    },
+    {
+      "name": "Hammer Curl",
+      "primary_muscle_group": "biceps brachii",
+      "body_part": "upper arms",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "barbell",
+        "dumbbells",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Low risk when using moderate weights.",
+      "notes": "Avoid swinging or momentum."
+    },
+    {
+      "name": "Incline Dumbbell Curl",
+      "primary_muscle_group": "biceps brachii",
+      "body_part": "upper arms",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "barbell",
+        "dumbbells",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Low risk when using moderate weights.",
+      "notes": "Avoid swinging or momentum."
+    },
+    {
+      "name": "Preacher Curl",
+      "primary_muscle_group": "biceps brachii",
+      "body_part": "upper arms",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "barbell",
+        "dumbbells",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Low risk when using moderate weights.",
+      "notes": "Avoid swinging or momentum."
+    },
+    {
+      "name": "Cable Curl",
+      "primary_muscle_group": "biceps brachii",
+      "body_part": "upper arms",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "barbell",
+        "dumbbells",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Low risk when using moderate weights.",
+      "notes": "Avoid swinging or momentum."
+    },
+    {
+      "name": "Concentration Curl",
+      "primary_muscle_group": "biceps brachii",
+      "body_part": "upper arms",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "barbell",
+        "dumbbells",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Low risk when using moderate weights.",
+      "notes": "Avoid swinging or momentum."
+    },
+    {
+      "name": "Skull Crushers",
+      "primary_muscle_group": "biceps brachii",
+      "body_part": "upper arms",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "barbell",
+        "dumbbells",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Low risk when using moderate weights.",
+      "notes": "Avoid swinging or momentum."
+    },
+    {
+      "name": "Close-Grip Bench Press",
+      "primary_muscle_group": "biceps brachii",
+      "body_part": "upper arms",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "barbell",
+        "dumbbells",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Low risk when using moderate weights.",
+      "notes": "Avoid swinging or momentum."
+    },
+    {
+      "name": "Cable Tricep Pushdown",
+      "primary_muscle_group": "biceps brachii",
+      "body_part": "upper arms",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "barbell",
+        "dumbbells",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Low risk when using moderate weights.",
+      "notes": "Avoid swinging or momentum."
+    },
+    {
+      "name": "Overhead Tricep Extension",
+      "primary_muscle_group": "biceps brachii",
+      "body_part": "upper arms",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "barbell",
+        "dumbbells",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Low risk when using moderate weights.",
+      "notes": "Avoid swinging or momentum."
+    },
+    {
+      "name": "Single-Arm Pushdown",
+      "primary_muscle_group": "biceps brachii",
+      "body_part": "upper arms",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "barbell",
+        "dumbbells",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Low risk when using moderate weights.",
+      "notes": "Avoid swinging or momentum."
+    },
+    {
+      "name": "Kickbacks",
+      "primary_muscle_group": "biceps brachii",
+      "body_part": "upper arms",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "barbell",
+        "dumbbells",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Low risk when using moderate weights.",
+      "notes": "Avoid swinging or momentum."
+    },
+    {
+      "name": "JM Press",
+      "primary_muscle_group": "biceps brachii",
+      "body_part": "upper arms",
+      "secondary_muscle_group": "triceps",
+      "secondary_body_part": "upper arms",
+      "accessories": [
+        "barbell",
+        "dumbbells",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "pull",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Low risk when using moderate weights.",
+      "notes": "Avoid swinging or momentum."
+    },
+    {
+      "name": "Plank",
+      "primary_muscle_group": "rectus abdominis",
+      "body_part": "core",
+      "secondary_muscle_group": "obliques",
+      "secondary_body_part": "core",
+      "accessories": [
+        "bodyweight",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "static",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Controlled movement reduces spinal stress.",
+      "notes": "Brace core throughout movement."
+    },
+    {
+      "name": "Weighted Plank",
+      "primary_muscle_group": "rectus abdominis",
+      "body_part": "core",
+      "secondary_muscle_group": "obliques",
+      "secondary_body_part": "core",
+      "accessories": [
+        "bodyweight",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "static",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Controlled movement reduces spinal stress.",
+      "notes": "Brace core throughout movement."
+    },
+    {
+      "name": "Cable Crunch",
+      "primary_muscle_group": "rectus abdominis",
+      "body_part": "core",
+      "secondary_muscle_group": "obliques",
+      "secondary_body_part": "core",
+      "accessories": [
+        "bodyweight",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "static",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Controlled movement reduces spinal stress.",
+      "notes": "Brace core throughout movement."
+    },
+    {
+      "name": "Hanging Leg Raise",
+      "primary_muscle_group": "rectus abdominis",
+      "body_part": "core",
+      "secondary_muscle_group": "obliques",
+      "secondary_body_part": "core",
+      "accessories": [
+        "bodyweight",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "static",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Controlled movement reduces spinal stress.",
+      "notes": "Brace core throughout movement."
+    },
+    {
+      "name": "Captain's Chair Raise",
+      "primary_muscle_group": "rectus abdominis",
+      "body_part": "core",
+      "secondary_muscle_group": "obliques",
+      "secondary_body_part": "core",
+      "accessories": [
+        "bodyweight",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "static",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Controlled movement reduces spinal stress.",
+      "notes": "Brace core throughout movement."
+    },
+    {
+      "name": "Ab Wheel Rollout",
+      "primary_muscle_group": "rectus abdominis",
+      "body_part": "core",
+      "secondary_muscle_group": "obliques",
+      "secondary_body_part": "core",
+      "accessories": [
+        "bodyweight",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "static",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Controlled movement reduces spinal stress.",
+      "notes": "Brace core throughout movement."
+    },
+    {
+      "name": "Decline Sit-Up",
+      "primary_muscle_group": "rectus abdominis",
+      "body_part": "core",
+      "secondary_muscle_group": "obliques",
+      "secondary_body_part": "core",
+      "accessories": [
+        "bodyweight",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "static",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Controlled movement reduces spinal stress.",
+      "notes": "Brace core throughout movement."
+    },
+    {
+      "name": "Russian Twist",
+      "primary_muscle_group": "rectus abdominis",
+      "body_part": "core",
+      "secondary_muscle_group": "obliques",
+      "secondary_body_part": "core",
+      "accessories": [
+        "bodyweight",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "static",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Controlled movement reduces spinal stress.",
+      "notes": "Brace core throughout movement."
+    },
+    {
+      "name": "Pallof Press",
+      "primary_muscle_group": "rectus abdominis",
+      "body_part": "core",
+      "secondary_muscle_group": "obliques",
+      "secondary_body_part": "core",
+      "accessories": [
+        "bodyweight",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "static",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Controlled movement reduces spinal stress.",
+      "notes": "Brace core throughout movement."
+    },
+    {
+      "name": "Cable Woodchop",
+      "primary_muscle_group": "rectus abdominis",
+      "body_part": "core",
+      "secondary_muscle_group": "obliques",
+      "secondary_body_part": "core",
+      "accessories": [
+        "bodyweight",
+        "cable"
+      ],
+      "training_type": "resistance training",
+      "movement_type": "static",
+      "mechanics": "isolation",
+      "difficulty": "beginner",
+      "safety_level": 4,
+      "safety_level_reason": "Controlled movement reduces spinal stress.",
+      "notes": "Brace core throughout movement."
+    }
+  ]
+}

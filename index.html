@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FitLife — Health & Exercise Hub</title>
+
+  <!-- Web Awesome Free Kit -->
+  <script src="https://kit.webawesome.com/d714b93f36734c52.js" crossorigin="anonymous"></script>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1>
+      <wa-icon name="dumbbell" label="Dumbbell"></wa-icon>
+      FitLife Hub
+    </h1>
+    <p class="muted header-subtitle">
+      Your all-in-one destination for health, fitness, and wellbeing.
+    </p>
+
+    <div class="icons-row icon-hover" aria-hidden="true">
+      <wa-icon name="person-running" label="Running"></wa-icon>
+      <wa-icon name="apple-whole" label="Nutrition"></wa-icon>
+      <wa-icon name="water" label="Hydration"></wa-icon>
+
+      <wa-animation name="spin" play>
+        <wa-icon name="heart" label="Heart Health"></wa-icon>
+      </wa-animation>
+
+      <wa-icon family="brands" name="apple" label="Apple"></wa-icon>
+    </div>
+  </header>
+
+  <main>
+    <!-- Workouts -->
+    <wa-card>
+      <div class="card-head">
+        <wa-icon name="dumbbell"></wa-icon>
+        <div>
+          <div class="card-title">Workout Routines</div>
+          <div class="muted">Strength & endurance training</div>
+        </div>
+      </div>
+
+      <p class="muted">
+        Explore guided routines and daily challenges that keep you moving toward your goals.
+      </p>
+
+      <div class="cta-row">
+        <wa-button variant="brand" size="small">
+          <wa-icon slot="start" name="bolt-lightning"></wa-icon>
+          Start Workout
+        </wa-button>
+      </div>
+    </wa-card>
+
+    <!-- Nutrition -->
+    <wa-card>
+      <div class="card-head">
+        <wa-icon name="bowl-food"></wa-icon>
+        <div>
+          <div class="card-title">Healthy Recipes</div>
+          <div class="muted">Balanced meals for energy</div>
+        </div>
+      </div>
+
+      <p class="muted">
+        Discover easy, tasty, and nutritious meals to fuel your workouts and recovery.
+      </p>
+
+      <div class="cta-row">
+        <wa-button variant="neutral" size="small">
+          <wa-icon slot="start" name="utensils"></wa-icon>
+          View Recipes
+        </wa-button>
+      </div>
+    </wa-card>
+
+    <!-- Sleep -->
+    <wa-card>
+      <div class="card-head">
+        <wa-icon name="bed"></wa-icon>
+        <div>
+          <div class="card-title">Rest & Recovery</div>
+          <div class="muted">Sleep, mobility, relaxation</div>
+        </div>
+      </div>
+
+      <p class="muted">
+        Learn how to rest smarter, recover faster, and wake up ready to perform.
+      </p>
+
+      <div class="cta-row">
+        <wa-button variant="brand" size="small">
+          <wa-icon slot="start" name="moon"></wa-icon>
+          Sleep Tips
+        </wa-button>
+      </div>
+    </wa-card>
+
+    <!-- Mind -->
+    <wa-card>
+      <div class="card-head">
+        <wa-animation name="fade" play>
+          <wa-icon name="brain"></wa-icon>
+        </wa-animation>
+        <div>
+          <div class="card-title">Mind & Mindfulness</div>
+          <div class="muted">Focus and meditation</div>
+        </div>
+      </div>
+
+      <p class="muted">
+        Short meditations and breathing exercises to keep you calm and centered.
+      </p>
+
+      <div class="cta-row">
+        <wa-button appearance="outlined" size="small">
+          <wa-icon slot="start" name="spa"></wa-icon>
+          Begin Session
+        </wa-button>
+      </div>
+    </wa-card>
+  </main>
+
+  <footer>
+    <div class="footer-row">
+      <wa-icon name="copyright"></wa-icon>
+      2025 FitLife Hub
+    </div>
+    <div class="muted">Built with Web Awesome Free Components</div>
+  </footer>
+</body>
+</html>
