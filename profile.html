@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Profile — FitLife Hub</title>
+  <meta name="description" content="Your FitLife profile: goals, experience, weekly schedule, and progress — saved privately in your browser." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://kit.webawesome.com/d714b93f36734c52.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <p class="header-kicker">Profile · Goals & weekly schedule</p>
+    <h1>
+      <wa-icon name="user" label="Dumbbell"></wa-icon>
+      My Profile
+      <wa-icon name="user" label="Dumbbell"></wa-icon>
+    </h1>
+    <p class="muted header-subtitle">Your goals, your week, your progress.</p>
+    <div class="icons-row icon-hover" aria-hidden="true"><wa-icon name="heart-pulse"></wa-icon><wa-icon name="person-walking"></wa-icon><wa-icon name="person"></wa-icon><wa-icon name="hand-fist"></wa-icon><wa-icon name="dumbbell"></wa-icon></div>
+  </header>
+
+  <div class="nav-wrap">
+  <nav class="page-nav" aria-label="Site navigation">
+    <a href="index.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="house"></wa-icon>Home</wa-button></a>
+    <a href="programs.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="calendar-days"></wa-icon>Programs</wa-button></a>
+    <a href="chest.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="heart-pulse"></wa-icon>Chest</wa-button></a>
+    <a href="legs.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="person-walking"></wa-icon>Legs</wa-button></a>
+    <a href="back.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="person"></wa-icon>Back</wa-button></a>
+    <a href="shoulders.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="hand-fist"></wa-icon>Shoulders</wa-button></a>
+    <a href="arms-core.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="dumbbell"></wa-icon>Arms & Core</wa-button></a>
+    <a href="tracker.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="chart-column"></wa-icon>Tracker</wa-button></a>
+    <a href="profile.html" aria-current="page"><wa-button size="small" variant="brand"><wa-icon slot="start" name="user"></wa-icon>Profile</wa-button></a>
+  </nav>
+</div>
+
+  <main class="page">
+    
+    <section class="page-intro">
+      <div class="card-head">
+        <wa-icon name="user"></wa-icon>
+        <div>
+          <div class="card-title">Your profile</div>
+          <div class="muted">set goals, plan your week</div>
+        </div>
+      </div>
+      <p>Tell FitLife a little about yourself and your training style. Your profile and progress stay saved in your browser and connect directly to your workout log.</p>
+    </section>
+
+    <section>
+      <div class="section-head">
+      <span class="section-eyebrow">profile basics</span>
+      <h2 class="section-title">About you</h2>
+    </div>
+      <wa-card class="profile-card">
+        <div class="avatar"><wa-icon name="user"></wa-icon></div>
+        <div class="form-grid">
+          <div class="field name-field"><label>Display name</label><wa-input id="pf-name" placeholder="Your name"></wa-input></div>
+          <div class="field"><label>Primary goal</label>
+            <wa-select id="pf-goal">
+              <wa-option value="muscle">Build muscle</wa-option>
+              <wa-option value="strength">Get stronger</wa-option>
+              <wa-option value="endurance">Boost endurance</wa-option>
+              <wa-option value="general">Stay fit</wa-option>
+            </wa-select>
+          </div>
+          <div class="field"><label>Experience</label>
+            <wa-select id="pf-exp">
+              <wa-option value="beginner">Beginner</wa-option>
+              <wa-option value="intermediate">Intermediate</wa-option>
+              <wa-option value="advanced">Advanced</wa-option>
+            </wa-select>
+          </div>
+          <div class="field"><label>Training days / week</label>
+            <wa-select id="pf-days">
+              <wa-option value="2">2 days</wa-option>
+              <wa-option value="3">3 days</wa-option>
+              <wa-option value="4">4 days</wa-option>
+              <wa-option value="5">5 days</wa-option>
+              <wa-option value="6">6 days</wa-option>
+            </wa-select>
+          </div>
+        </div>
+        <div class="cta-row">
+          <wa-button id="pf-save" variant="brand" size="small">
+            <wa-icon slot="start" name="floppy-disk"></wa-icon>
+            Save profile
+          </wa-button>
+        </div>
+        <p class="muted log-feedback" id="pf-feedback"></p>
+      </wa-card>
+    </section>
+
+    <section>
+      <div class="section-head">
+      <span class="section-eyebrow">tap the days you train</span>
+      <h2 class="section-title">Your weekly schedule</h2>
+    </div>
+      <div class="day-pills" id="day-pills"></div>
+    </section>
+
+    <section>
+      <div class="section-head">
+      <span class="section-eyebrow">how close are you?</span>
+      <h2 class="section-title">Goal progress</h2>
+    </div>
+      <wa-card class="profile-card">
+        <div class="progress-row">
+          <span class="progress-label">Current progress</span>
+          <span class="progress-val" id="goal-pct">0%</span>
+        </div>
+        <wa-range id="goal-range" min="0" max="100" step="5" value="0"></wa-range>
+        <p class="muted">Slide to set how close you are to your primary goal. It is saved with your profile.</p>
+      </wa-card>
+    </section>
+
+    <section>
+      <div class="section-head">
+      <span class="section-eyebrow">pulled from your workout log</span>
+      <h2 class="section-title">Your numbers</h2>
+    </div>
+      <div class="stats-grid" id="pf-stats"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-row">
+      <wa-icon name="copyright"></wa-icon>
+      Kyle Yanch 2026
+    </div>
+  </footer>
+</body>
+</html>

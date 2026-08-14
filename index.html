@@ -4,124 +4,315 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>FitLife — Health & Exercise Hub</title>
-
-  <!-- Web Awesome Free Kit -->
+  <meta name="description" content="FitLife Hub: a complete strength-training exercise library with 100 exercises across 6 muscle groups, training tips, and sample routines." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
   <script src="https://kit.webawesome.com/d714b93f36734c52.js" crossorigin="anonymous"></script>
-
-  <!-- External CSS -->
   <link rel="stylesheet" href="styles.css" />
+  
 </head>
 
 <body>
   <header>
+    <p class="header-kicker">Your all-in-one fitness library</p>
     <h1>
       <wa-icon name="dumbbell" label="Dumbbell"></wa-icon>
       FitLife Hub
       <wa-icon name="dumbbell" label="Dumbbell"></wa-icon>
     </h1>
-    <p class="muted header-subtitle">
-      Your all-in-one destination for health, fitness, and wellbeing.
-    </p>
-
-    <div class="icons-row icon-hover" aria-hidden="true">
-      <wa-icon name="person-running" label="Running"></wa-icon>
-      <wa-icon name="apple-whole" label="Nutrition"></wa-icon>
-      <wa-icon name="water" label="Hydration"></wa-icon>
-      <wa-icon name="heart" label="Heart Health"></wa-icon>
-      <wa-icon family="brands" name="apple" label="Apple"></wa-icon>
-    </div>
+    <p class="muted header-subtitle">Your all-in-one destination for strength training — every muscle, every week.</p>
+    <div class="icons-row icon-hover" aria-hidden="true"><wa-icon name="dumbbell"></wa-icon><wa-icon name="person-running"></wa-icon><wa-icon name="heart-pulse"></wa-icon><wa-icon name="person-walking"></wa-icon><wa-icon name="hand-fist"></wa-icon><wa-icon name="bolt-lightning"></wa-icon></div>
   </header>
 
-  <main>
-    <!-- Workouts -->
-    <wa-card>
+  <div class="nav-wrap">
+  <nav class="page-nav" aria-label="Site navigation">
+    <a href="index.html" aria-current="page"><wa-button size="small" variant="brand"><wa-icon slot="start" name="house"></wa-icon>Home</wa-button></a>
+    <a href="programs.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="calendar-days"></wa-icon>Programs</wa-button></a>
+    <a href="chest.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="heart-pulse"></wa-icon>Chest</wa-button></a>
+    <a href="legs.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="person-walking"></wa-icon>Legs</wa-button></a>
+    <a href="back.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="person"></wa-icon>Back</wa-button></a>
+    <a href="shoulders.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="hand-fist"></wa-icon>Shoulders</wa-button></a>
+    <a href="arms-core.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="dumbbell"></wa-icon>Arms & Core</wa-button></a>
+    <a href="tracker.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="chart-column"></wa-icon>Tracker</wa-button></a>
+    <a href="profile.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="user"></wa-icon>Profile</wa-button></a>
+  </nav>
+</div>
+
+  <main class="page">
+    
+    <section class="hero">
       <div class="card-head">
         <wa-icon name="dumbbell"></wa-icon>
         <div>
-          <div class="card-title">Workout Routines</div>
-          <div class="muted">Strength & endurance training</div>
+          <div class="card-title">A complete exercise library</div>
+          <div class="muted">100 exercises, 6 muscle groups</div>
         </div>
       </div>
-
-      <p class="muted">
-        Explore guided routines and daily challenges that keep you moving toward your goals.
+      <h2>Train every muscle, every week.</h2>
+      <p>
+        FitLife Hub is your one-stop strength library. Pick a muscle group to browse its full
+        exercise catalog, read training tips, and grab a sample routine — all built from one
+        carefully curated exercise database.
       </p>
+    </section>
 
-      <div class="cta-row">
-        <wa-button variant="brand" size="small">
-          <wa-icon slot="start" name="bolt-lightning"></wa-icon>
-          Start Workout
-        </wa-button>
-      </div>
-    </wa-card>
+    <section>
+      <div class="section-head">
+      <span class="section-eyebrow">what you get</span>
+      <h2 class="section-title">The hub at a glance</h2>
+    </div>
+      <div class="stats-grid"><wa-card class="stat-card">
+      <wa-icon name="dumbbell"></wa-icon>
+      <div class="stat-value">100</div>
+      <div class="stat-label">Exercises</div>
+      <div class="stat-hint muted">across the full library</div>
+    </wa-card><wa-card class="stat-card">
+      <wa-icon name="person-running"></wa-icon>
+      <div class="stat-value">6</div>
+      <div class="stat-label">Muscle groups</div>
+      <div class="stat-hint muted">chest to calves</div>
+    </wa-card><wa-card class="stat-card">
+      <wa-icon name="arrows-up-down"></wa-icon>
+      <div class="stat-value">3</div>
+      <div class="stat-label">Movement patterns</div>
+      <div class="stat-hint muted">push · pull · static</div>
+    </wa-card><wa-card class="stat-card">
+      <wa-icon name="medal"></wa-icon>
+      <div class="stat-value">2</div>
+      <div class="stat-label">Difficulty levels</div>
+      <div class="stat-hint muted">beginner & intermediate</div>
+    </wa-card></div>
+    </section>
 
-    <!-- Nutrition -->
-    <wa-card>
-      <div class="card-head">
-        <wa-icon name="bowl-food"></wa-icon>
-        <div>
-          <div class="card-title">Healthy Recipes</div>
-          <div class="muted">Balanced meals for energy</div>
+    <section>
+      <div class="section-head">
+      <span class="section-eyebrow">five fully built libraries</span>
+      <h2 class="section-title">Browse by muscle group</h2>
+    </div>
+      <div class="card-grid">
+        <wa-card class="page-card">
+        <div class="card-head">
+          <wa-icon name="heart-pulse"></wa-icon>
+          <div>
+            <div class="card-title">Chest</div>
+            <div class="muted">Presses & flies</div>
+          </div>
         </div>
-      </div>
-
-      <p class="muted">
-        Discover easy, tasty, and nutritious meals to fuel your workouts and recovery.
-      </p>
-
-      <div class="cta-row">
-        <wa-button variant="neutral" size="small">
-          <wa-icon slot="start" name="utensils"></wa-icon>
-          View Recipes
-        </wa-button>
-      </div>
-    </wa-card>
-
-    <!-- Sleep -->
-    <wa-card>
-      <div class="card-head">
-        <wa-icon name="bed"></wa-icon>
-        <div>
-          <div class="card-title">Rest & Recovery</div>
-          <div class="muted">Sleep, mobility, relaxation</div>
+        <div class="badge-row">
+          <span class="badge badge--brand">15 exercises</span>
         </div>
-      </div>
-
-      <p class="muted">
-        Learn how to rest smarter, recover faster, and wake up ready to perform.
-      </p>
-
-      <div class="cta-row">
-        <wa-button variant="brand" size="small">
-          <wa-icon slot="start" name="moon"></wa-icon>
-          Sleep Tips
-        </wa-button>
-      </div>
-    </wa-card>
-
-    <!-- Mind -->
-    <wa-card>
-      <div class="card-head">
-        <wa-animation name="fade" play>
-          <wa-icon name="brain"></wa-icon>
-        </wa-animation>
-        <div>
-          <div class="card-title">Mind & Mindfulness</div>
-          <div class="muted">Focus and meditation</div>
+        <p class="muted">Barbell, dumbbell, and cable work to build a strong, sculpted chest.</p>
+        <div class="cta-row">
+          <a class="btn-link" href="chest.html">
+            <wa-button variant="brand" size="small">
+              <wa-icon slot="start" name="magnifying-glass"></wa-icon>
+              Explore
+            </wa-button>
+          </a>
         </div>
+      </wa-card>
+<wa-card class="page-card">
+        <div class="card-head">
+          <wa-icon name="person-walking"></wa-icon>
+          <div>
+            <div class="card-title">Legs</div>
+            <div class="muted">Squats, hinges & lunges</div>
+          </div>
+        </div>
+        <div class="badge-row">
+          <span class="badge badge--brand">25 exercises</span>
+        </div>
+        <p class="muted">Build strength and power from the ground up with the biggest lifts in training.</p>
+        <div class="cta-row">
+          <a class="btn-link" href="legs.html">
+            <wa-button variant="brand" size="small">
+              <wa-icon slot="start" name="magnifying-glass"></wa-icon>
+              Explore
+            </wa-button>
+          </a>
+        </div>
+      </wa-card>
+<wa-card class="page-card">
+        <div class="card-head">
+          <wa-icon name="person"></wa-icon>
+          <div>
+            <div class="card-title">Back</div>
+            <div class="muted">Pulls & rows</div>
+          </div>
+        </div>
+        <div class="badge-row">
+          <span class="badge badge--brand">20 exercises</span>
+        </div>
+        <p class="muted">Pull-ups, pulldowns, and rows for width, thickness, and posture.</p>
+        <div class="cta-row">
+          <a class="btn-link" href="back.html">
+            <wa-button variant="brand" size="small">
+              <wa-icon slot="start" name="magnifying-glass"></wa-icon>
+              Explore
+            </wa-button>
+          </a>
+        </div>
+      </wa-card>
+<wa-card class="page-card">
+        <div class="card-head">
+          <wa-icon name="hand-fist"></wa-icon>
+          <div>
+            <div class="card-title">Shoulders</div>
+            <div class="muted">Presses & raises</div>
+          </div>
+        </div>
+        <div class="badge-row">
+          <span class="badge badge--brand">15 exercises</span>
+        </div>
+        <p class="muted">Train all three deltoid heads for strong, healthy, balanced shoulders.</p>
+        <div class="cta-row">
+          <a class="btn-link" href="shoulders.html">
+            <wa-button variant="brand" size="small">
+              <wa-icon slot="start" name="magnifying-glass"></wa-icon>
+              Explore
+            </wa-button>
+          </a>
+        </div>
+      </wa-card>
+<wa-card class="page-card">
+        <div class="card-head">
+          <wa-icon name="dumbbell"></wa-icon>
+          <div>
+            <div class="card-title">Arms & Core</div>
+            <div class="muted">Curls, triceps & core</div>
+          </div>
+        </div>
+        <div class="badge-row">
+          <span class="badge badge--brand">25 exercises</span>
+        </div>
+        <p class="muted">Isolation work for the upper arms plus core-stability holds.</p>
+        <div class="cta-row">
+          <a class="btn-link" href="arms-core.html">
+            <wa-button variant="brand" size="small">
+              <wa-icon slot="start" name="magnifying-glass"></wa-icon>
+              Explore
+            </wa-button>
+          </a>
+        </div>
+      </wa-card>
       </div>
+    </section>
 
-      <p class="muted">
-        Short meditations and breathing exercises to keep you calm and centered.
-      </p>
-
-      <div class="cta-row">
-        <wa-button appearance="outlined" size="small">
-          <wa-icon slot="start" name="spa"></wa-icon>
-          Begin Session
-        </wa-button>
+    <section>
+      <div class="section-head">
+      <span class="section-eyebrow">three moves worth knowing</span>
+      <h2 class="section-title">Exercise spotlight</h2>
+    </div>
+      <div class="spotlight-grid">
+        <wa-card class="spotlight-card">
+        <div class="card-head">
+          <wa-icon name="arrow-up" class="ex-icon"></wa-icon>
+          <div>
+            <div class="card-title">Barbell Bench Press</div>
+            <div class="muted">Chest · Intermediate</div>
+          </div>
+        </div>
+        <p class="muted">The classic upper-body builder. Pair it with a spotter and controlled reps.</p>
+        <div class="cta-row">
+          <a class="btn-link" href="chest.html">
+            <wa-button variant="neutral" size="small">
+              View in library
+            </wa-button>
+          </a>
+        </div>
+      </wa-card>
+<wa-card class="spotlight-card">
+        <div class="card-head">
+          <wa-icon name="arrow-up" class="ex-icon"></wa-icon>
+          <div>
+            <div class="card-title">Conventional Deadlift</div>
+            <div class="muted">Legs · Intermediate</div>
+          </div>
+        </div>
+        <p class="muted">The king of strength. Builds the entire posterior chain in one movement.</p>
+        <div class="cta-row">
+          <a class="btn-link" href="legs.html">
+            <wa-button variant="neutral" size="small">
+              View in library
+            </wa-button>
+          </a>
+        </div>
+      </wa-card>
+<wa-card class="spotlight-card">
+        <div class="card-head">
+          <wa-icon name="pause" class="ex-icon"></wa-icon>
+          <div>
+            <div class="card-title">Plank</div>
+            <div class="muted">Arms & Core · Beginner</div>
+          </div>
+        </div>
+        <p class="muted">The ultimate core staple. Brace hard, breathe, and hold your position.</p>
+        <div class="cta-row">
+          <a class="btn-link" href="arms-core.html">
+            <wa-button variant="neutral" size="small">
+              View in library
+            </wa-button>
+          </a>
+        </div>
+      </wa-card>
       </div>
-    </wa-card>
+    </section>
+
+    <section>
+      <div class="section-head">
+      <span class="section-eyebrow">a simple path to results</span>
+      <h2 class="section-title">How to use this hub</h2>
+    </div>
+      <div class="tip-grid">
+        <wa-card>
+        <div class="card-head">
+          <wa-icon name="compass"></wa-icon>
+          <div>
+            <div class="card-title">Pick a muscle group</div>
+          </div>
+        </div>
+        <p class="muted">Start with the area you want to grow or the lift you want to improve, then open its exercise library.</p>
+      </wa-card>
+<wa-card>
+        <div class="card-head">
+          <wa-icon name="clipboard-list"></wa-icon>
+          <div>
+            <div class="card-title">Follow a sample routine</div>
+          </div>
+        </div>
+        <p class="muted">Every page includes a balanced, ready-to-run day. Start there before building your own.</p>
+      </wa-card>
+<wa-card>
+        <div class="card-head">
+          <wa-icon name="chart-column"></wa-icon>
+          <div>
+            <div class="card-title">Progress weekly</div>
+          </div>
+        </div>
+        <p class="muted">Add a rep or a little weight each week, keep a log, and let the numbers guide you.</p>
+      </wa-card>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+      <span class="section-eyebrow">straight answers</span>
+      <h2 class="section-title">Common questions</h2>
+    </div>
+      <details class="faq">
+      <summary>Do I need a full gym?</summary>
+      <p>No. Equipment chips on every exercise show what you need, and plenty of the library works with just dumbbells, a bar, or bodyweight. Mix and match with what you have.</p>
+    </details>
+<details class="faq">
+      <summary>How do I know how much weight to use?</summary>
+      <p>Start light, master the movement, and add small increments only when you hit the top of the rep range with clean form. Comfortably hard is the target.</p>
+    </details>
+<details class="faq">
+      <summary>What do beginner and intermediate mean here?</summary>
+      <p>Beginner exercises are easy to learn and low-risk. Intermediate exercises need more technique and care — read the safety note on each card before loading up.</p>
+    </details>
+    </section>
   </main>
 
   <footer>

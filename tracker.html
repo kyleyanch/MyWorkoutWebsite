@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Workout Tracker — FitLife Hub</title>
+  <meta name="description" content="Log your workout sets, estimate your one-rep max, and track training volume. Data stays private in your browser." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://kit.webawesome.com/d714b93f36734c52.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <p class="header-kicker">Tracker · Log workouts & estimate 1RM</p>
+    <h1>
+      <wa-icon name="chart-column" label="Dumbbell"></wa-icon>
+      Workout Tracker
+      <wa-icon name="chart-column" label="Dumbbell"></wa-icon>
+    </h1>
+    <p class="muted header-subtitle">Log sets, track volume, and estimate your one-rep max.</p>
+    <div class="icons-row icon-hover" aria-hidden="true"><wa-icon name="heart-pulse"></wa-icon><wa-icon name="person-walking"></wa-icon><wa-icon name="person"></wa-icon><wa-icon name="hand-fist"></wa-icon><wa-icon name="dumbbell"></wa-icon></div>
+  </header>
+
+  <div class="nav-wrap">
+  <nav class="page-nav" aria-label="Site navigation">
+    <a href="index.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="house"></wa-icon>Home</wa-button></a>
+    <a href="programs.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="calendar-days"></wa-icon>Programs</wa-button></a>
+    <a href="chest.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="heart-pulse"></wa-icon>Chest</wa-button></a>
+    <a href="legs.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="person-walking"></wa-icon>Legs</wa-button></a>
+    <a href="back.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="person"></wa-icon>Back</wa-button></a>
+    <a href="shoulders.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="hand-fist"></wa-icon>Shoulders</wa-button></a>
+    <a href="arms-core.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="dumbbell"></wa-icon>Arms & Core</wa-button></a>
+    <a href="tracker.html" aria-current="page"><wa-button size="small" variant="brand"><wa-icon slot="start" name="chart-column"></wa-icon>Tracker</wa-button></a>
+    <a href="profile.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="user"></wa-icon>Profile</wa-button></a>
+  </nav>
+</div>
+
+  <main class="page">
+    
+    <section class="page-intro">
+      <div class="card-head">
+        <wa-icon name="chart-column"></wa-icon>
+        <div>
+          <div class="card-title">Track every set</div>
+          <div class="muted">local, private, always saved</div>
+        </div>
+      </div>
+      <p>Log your workouts, estimate your one-rep max, and watch your volume build. Everything is stored in your browser — no account needed.</p>
+    </section>
+
+    <section>
+      <div class="section-head">
+      <span class="section-eyebrow">the Epley formula</span>
+      <h2 class="section-title">One-rep max calculator</h2>
+    </div>
+      <wa-card class="calc-card">
+        <div class="form-grid">
+          <div class="field"><label>Weight lifted (kg)</label><wa-input id="orm-weight" type="number" placeholder="100" min="0"></wa-input></div>
+          <div class="field"><label>Reps completed</label><wa-input id="orm-reps" type="number" placeholder="5" min="1"></wa-input></div>
+        </div>
+        <div class="cta-row">
+          <wa-button id="orm-btn" variant="brand" size="small">
+            <wa-icon slot="start" name="bolt-lightning"></wa-icon>
+            Calculate
+          </wa-button>
+        </div>
+        <p class="orm-result" id="orm-result" hidden></p>
+      </wa-card>
+    </section>
+
+    <section>
+      <div class="section-head">
+      <span class="section-eyebrow">add to your workout log</span>
+      <h2 class="section-title">Log a set</h2>
+    </div>
+      <wa-card class="form-card">
+        <div class="form-grid">
+          <div class="field exercise-field"><label>Exercise</label>
+            <wa-select id="log-exercise" placeholder="Choose an exercise">
+          <wa-option value="Barbell Bench Press">Barbell Bench Press</wa-option>
+          <wa-option value="Incline Bench Press">Incline Bench Press</wa-option>
+          <wa-option value="Decline Bench Press">Decline Bench Press</wa-option>
+          <wa-option value="Dumbbell Bench Press">Dumbbell Bench Press</wa-option>
+          <wa-option value="Incline Dumbbell Press">Incline Dumbbell Press</wa-option>
+          <wa-option value="Decline Dumbbell Press">Decline Dumbbell Press</wa-option>
+          <wa-option value="Chest Press Machine">Chest Press Machine</wa-option>
+          <wa-option value="Smith Machine Bench Press">Smith Machine Bench Press</wa-option>
+          <wa-option value="Dumbbell Fly">Dumbbell Fly</wa-option>
+          <wa-option value="Incline Dumbbell Fly">Incline Dumbbell Fly</wa-option>
+          <wa-option value="Cable Fly">Cable Fly</wa-option>
+          <wa-option value="Low Cable Fly">Low Cable Fly</wa-option>
+          <wa-option value="High Cable Fly">High Cable Fly</wa-option>
+          <wa-option value="Pec Deck">Pec Deck</wa-option>
+          <wa-option value="Single-Arm Dumbbell Press">Single-Arm Dumbbell Press</wa-option>
+          <wa-option value="Back Squat">Back Squat</wa-option>
+          <wa-option value="Front Squat">Front Squat</wa-option>
+          <wa-option value="Goblet Squat">Goblet Squat</wa-option>
+          <wa-option value="Leg Press">Leg Press</wa-option>
+          <wa-option value="Hack Squat">Hack Squat</wa-option>
+          <wa-option value="Bulgarian Split Squat">Bulgarian Split Squat</wa-option>
+          <wa-option value="Walking Lunge">Walking Lunge</wa-option>
+          <wa-option value="Reverse Lunge">Reverse Lunge</wa-option>
+          <wa-option value="Romanian Deadlift">Romanian Deadlift</wa-option>
+          <wa-option value="Conventional Deadlift">Conventional Deadlift</wa-option>
+          <wa-option value="Sumo Deadlift">Sumo Deadlift</wa-option>
+          <wa-option value="Hip Thrust">Hip Thrust</wa-option>
+          <wa-option value="Glute Bridge">Glute Bridge</wa-option>
+          <wa-option value="Leg Extension">Leg Extension</wa-option>
+          <wa-option value="Seated Leg Curl">Seated Leg Curl</wa-option>
+          <wa-option value="Lying Leg Curl">Lying Leg Curl</wa-option>
+          <wa-option value="Standing Calf Raise">Standing Calf Raise</wa-option>
+          <wa-option value="Seated Calf Raise">Seated Calf Raise</wa-option>
+          <wa-option value="Smith Machine Squat">Smith Machine Squat</wa-option>
+          <wa-option value="Box Squat">Box Squat</wa-option>
+          <wa-option value="Pause Squat">Pause Squat</wa-option>
+          <wa-option value="Step-Ups">Step-Ups</wa-option>
+          <wa-option value="Cable Pull Through">Cable Pull Through</wa-option>
+          <wa-option value="Landmine Squat">Landmine Squat</wa-option>
+          <wa-option value="Single-Leg Press">Single-Leg Press</wa-option>
+          <wa-option value="Pull-Up">Pull-Up</wa-option>
+          <wa-option value="Chin-Up">Chin-Up</wa-option>
+          <wa-option value="Lat Pulldown">Lat Pulldown</wa-option>
+          <wa-option value="Wide-Grip Pulldown">Wide-Grip Pulldown</wa-option>
+          <wa-option value="Seated Cable Row">Seated Cable Row</wa-option>
+          <wa-option value="Barbell Row">Barbell Row</wa-option>
+          <wa-option value="Pendlay Row">Pendlay Row</wa-option>
+          <wa-option value="Single-Arm Dumbbell Row">Single-Arm Dumbbell Row</wa-option>
+          <wa-option value="T-Bar Row">T-Bar Row</wa-option>
+          <wa-option value="Machine Row">Machine Row</wa-option>
+          <wa-option value="Dead Hang">Dead Hang</wa-option>
+          <wa-option value="Straight Arm Pulldown">Straight Arm Pulldown</wa-option>
+          <wa-option value="Face Pull">Face Pull</wa-option>
+          <wa-option value="Inverted Row">Inverted Row</wa-option>
+          <wa-option value="Rack Pull">Rack Pull</wa-option>
+          <wa-option value="Meadows Row">Meadows Row</wa-option>
+          <wa-option value="Kroc Row">Kroc Row</wa-option>
+          <wa-option value="Cable Row Wide">Cable Row Wide</wa-option>
+          <wa-option value="Cable Row Close">Cable Row Close</wa-option>
+          <wa-option value="Landmine Row">Landmine Row</wa-option>
+          <wa-option value="Overhead Press">Overhead Press</wa-option>
+          <wa-option value="Seated Dumbbell Press">Seated Dumbbell Press</wa-option>
+          <wa-option value="Arnold Press">Arnold Press</wa-option>
+          <wa-option value="Lateral Raise">Lateral Raise</wa-option>
+          <wa-option value="Cable Lateral Raise">Cable Lateral Raise</wa-option>
+          <wa-option value="Front Raise">Front Raise</wa-option>
+          <wa-option value="Plate Raise">Plate Raise</wa-option>
+          <wa-option value="Upright Row">Upright Row</wa-option>
+          <wa-option value="Rear Delt Fly">Rear Delt Fly</wa-option>
+          <wa-option value="Reverse Pec Deck">Reverse Pec Deck</wa-option>
+          <wa-option value="Face Pull High">Face Pull High</wa-option>
+          <wa-option value="Z Press">Z Press</wa-option>
+          <wa-option value="Landmine Press">Landmine Press</wa-option>
+          <wa-option value="Machine Shoulder Press">Machine Shoulder Press</wa-option>
+          <wa-option value="Single-Arm Cable Raise">Single-Arm Cable Raise</wa-option>
+          <wa-option value="Barbell Curl">Barbell Curl</wa-option>
+          <wa-option value="EZ-Bar Curl">EZ-Bar Curl</wa-option>
+          <wa-option value="Dumbbell Curl">Dumbbell Curl</wa-option>
+          <wa-option value="Hammer Curl">Hammer Curl</wa-option>
+          <wa-option value="Incline Dumbbell Curl">Incline Dumbbell Curl</wa-option>
+          <wa-option value="Preacher Curl">Preacher Curl</wa-option>
+          <wa-option value="Cable Curl">Cable Curl</wa-option>
+          <wa-option value="Concentration Curl">Concentration Curl</wa-option>
+          <wa-option value="Skull Crushers">Skull Crushers</wa-option>
+          <wa-option value="Close-Grip Bench Press">Close-Grip Bench Press</wa-option>
+          <wa-option value="Cable Tricep Pushdown">Cable Tricep Pushdown</wa-option>
+          <wa-option value="Overhead Tricep Extension">Overhead Tricep Extension</wa-option>
+          <wa-option value="Single-Arm Pushdown">Single-Arm Pushdown</wa-option>
+          <wa-option value="Kickbacks">Kickbacks</wa-option>
+          <wa-option value="JM Press">JM Press</wa-option>
+          <wa-option value="Plank">Plank</wa-option>
+          <wa-option value="Weighted Plank">Weighted Plank</wa-option>
+          <wa-option value="Cable Crunch">Cable Crunch</wa-option>
+          <wa-option value="Hanging Leg Raise">Hanging Leg Raise</wa-option>
+          <wa-option value="Captain's Chair Raise">Captain's Chair Raise</wa-option>
+          <wa-option value="Ab Wheel Rollout">Ab Wheel Rollout</wa-option>
+          <wa-option value="Decline Sit-Up">Decline Sit-Up</wa-option>
+          <wa-option value="Russian Twist">Russian Twist</wa-option>
+          <wa-option value="Pallof Press">Pallof Press</wa-option>
+          <wa-option value="Cable Woodchop">Cable Woodchop</wa-option>
+            </wa-select>
+          </div>
+          <div class="field"><label>Sets</label><wa-input id="log-sets" type="number" placeholder="3" min="1"></wa-input></div>
+          <div class="field"><label>Reps</label><wa-input id="log-reps" type="number" placeholder="10" min="1"></wa-input></div>
+          <div class="field"><label>Weight (kg)</label><wa-input id="log-weight" type="number" placeholder="60" min="0"></wa-input></div>
+        </div>
+        <div class="cta-row">
+          <wa-button id="log-add" variant="brand" size="small">
+            <wa-icon slot="start" name="plus"></wa-icon>
+            Add to log
+          </wa-button>
+        </div>
+        <p class="muted log-feedback" id="log-feedback"></p>
+      </wa-card>
+    </section>
+
+    <section>
+      <div class="section-head">
+      <span class="section-eyebrow">everything you have tracked</span>
+      <h2 class="section-title">Your workout log</h2>
+    </div>
+      <div class="stats-grid" id="log-stats"></div>
+      <div class="log-list" id="log-list"></div>
+      <div class="cta-row log-footer-cta">
+        <wa-button id="log-clear" appearance="outlined" size="small">Clear log</wa-button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-row">
+      <wa-icon name="copyright"></wa-icon>
+      Kyle Yanch 2026
+    </div>
+  </footer>
+</body>
+</html>

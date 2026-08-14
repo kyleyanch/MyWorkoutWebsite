@@ -1,0 +1,742 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Leg Exercises — FitLife Hub</title>
+  <meta name="description" content="The full leg exercise library: squats, hinges, lunges, and calf work for strength and power. Includes training tips and a sample routine." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://kit.webawesome.com/d714b93f36734c52.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+  
+</head>
+
+<body>
+  <header>
+    <p class="header-kicker">Leg training · Power & foundation</p>
+    <h1>
+      <wa-icon name="person-walking" label="Dumbbell"></wa-icon>
+      Leg Exercises
+      <wa-icon name="person-walking" label="Dumbbell"></wa-icon>
+    </h1>
+    <p class="muted header-subtitle">Squat, hinge, and lunge your way to strength.</p>
+    <div class="icons-row icon-hover" aria-hidden="true"><wa-icon name="heart-pulse"></wa-icon><wa-icon name="person-walking"></wa-icon><wa-icon name="person"></wa-icon><wa-icon name="hand-fist"></wa-icon><wa-icon name="dumbbell"></wa-icon></div>
+  </header>
+
+  <div class="nav-wrap">
+  <nav class="page-nav" aria-label="Site navigation">
+    <a href="index.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="house"></wa-icon>Home</wa-button></a>
+    <a href="programs.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="calendar-days"></wa-icon>Programs</wa-button></a>
+    <a href="chest.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="heart-pulse"></wa-icon>Chest</wa-button></a>
+    <a href="legs.html" aria-current="page"><wa-button size="small" variant="brand"><wa-icon slot="start" name="person-walking"></wa-icon>Legs</wa-button></a>
+    <a href="back.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="person"></wa-icon>Back</wa-button></a>
+    <a href="shoulders.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="hand-fist"></wa-icon>Shoulders</wa-button></a>
+    <a href="arms-core.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="dumbbell"></wa-icon>Arms & Core</wa-button></a>
+    <a href="tracker.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="chart-column"></wa-icon>Tracker</wa-button></a>
+    <a href="profile.html"><wa-button size="small" appearance="outlined"><wa-icon slot="start" name="user"></wa-icon>Profile</wa-button></a>
+  </nav>
+</div>
+
+  <main class="page">
+    
+    <section class="page-intro">
+      <div class="card-head">
+        <wa-icon name="person-walking"></wa-icon>
+        <div>
+          <div class="card-title">The foundation of every lift</div>
+          <div class="muted">Primary mover: Quadriceps</div>
+        </div>
+      </div>
+      <p>Your legs are the engine of everything you do in the gym. This library covers full squat patterns, hinges, lunges, and calf work to build quadriceps strength, strong glutes, and a resilient posterior chain. In this data set the quadriceps lead on every exercise with the glutes supporting as secondary movers, so be sure to mix in hinge and hip-dominant moves through the week for balance.</p>
+    </section>
+
+    <section>
+      <div class="section-head">
+      <span class="section-eyebrow">Legs in numbers</span>
+      <h2 class="section-title">At a glance</h2>
+    </div>
+      <div class="stats-grid"><wa-card class="stat-card">
+      <wa-icon name="list"></wa-icon>
+      <div class="stat-value">25</div>
+      <div class="stat-label">Exercises</div>
+      <div class="stat-hint muted">Quadriceps focus</div>
+    </wa-card><wa-card class="stat-card">
+      <wa-icon name="arrows-up-down"></wa-icon>
+      <div class="stat-value">25</div>
+      <div class="stat-label">Compound</div>
+      <div class="stat-hint muted">multi-joint lifts</div>
+    </wa-card><wa-card class="stat-card">
+      <wa-icon name="person-running"></wa-icon>
+      <div class="stat-value">0</div>
+      <div class="stat-label">Isolation</div>
+      <div class="stat-hint muted">single-joint moves</div>
+    </wa-card><wa-card class="stat-card">
+      <wa-icon name="medal"></wa-icon>
+      <div class="stat-value">25</div>
+      <div class="stat-label">Intermediate</div>
+      <div class="stat-hint muted">0 beginner-friendly</div>
+    </wa-card></div>
+    </section>
+
+    <section>
+      <div class="section-head">
+      <span class="section-eyebrow">train this area smart</span>
+      <h2 class="section-title">Training tips</h2>
+    </div>
+      <div class="tip-grid">
+        <wa-card class="tip-card">
+      <div class="card-head">
+        <wa-icon name="arrow-up"></wa-icon>
+        <div>
+          <div class="card-title">Descend with control</div>
+        </div>
+      </div>
+      <p class="muted">Squat deep enough to feel real tension, keep your heels down, and let your knees track over your toes. Depth beats ego.</p>
+    </wa-card>
+<wa-card class="tip-card">
+      <div class="card-head">
+        <wa-icon name="wind"></wa-icon>
+        <div>
+          <div class="card-title">Do not skip the hinge</div>
+        </div>
+      </div>
+      <p class="muted">Romanian and conventional deadlifts build the hamstrings and glutes that squatting alone misses. Hinge work keeps the posterior chain strong.</p>
+    </wa-card>
+<wa-card class="tip-card">
+      <div class="card-head">
+        <wa-icon name="chart-column"></wa-icon>
+        <div>
+          <div class="card-title">Progress weight gradually</div>
+        </div>
+      </div>
+      <p class="muted">Leg day is the most taxing session of the week. Add load in small steps and protect your form on every set.</p>
+    </wa-card>
+<wa-card class="tip-card">
+      <div class="card-head">
+        <wa-icon name="arrows-up-down"></wa-icon>
+        <div>
+          <div class="card-title">Go one-legged sometimes</div>
+        </div>
+      </div>
+      <p class="muted">Split squats, lunges, and single-leg presses expose and fix left-right imbalances before they turn into injuries.</p>
+    </wa-card>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+      <span class="section-eyebrow">25 exercises</span>
+      <h2 class="section-title">Exercise library</h2>
+    </div>
+      <div class="exercise-grid">
+        <wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Back Squat</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Front Squat</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Goblet Squat</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Leg Press</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Hack Squat</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Bulgarian Split Squat</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Walking Lunge</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Reverse Lunge</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Romanian Deadlift</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Conventional Deadlift</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Sumo Deadlift</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Hip Thrust</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Glute Bridge</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Leg Extension</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Seated Leg Curl</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Lying Leg Curl</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Standing Calf Raise</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Seated Calf Raise</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Smith Machine Squat</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Box Squat</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Pause Squat</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Step-Ups</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Cable Pull Through</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Landmine Squat</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+<wa-card class="ex-card">
+      <div class="ex-top">
+        <wa-icon name="arrow-up" class="ex-icon" label="Push"></wa-icon>
+        <div>
+          <div class="card-title">Single-Leg Press</div>
+          <div class="muted">Quadriceps &middot; Glutes</div>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge badge--warn">Intermediate</span>
+        <span class="badge badge--info">Compound</span>
+        <span class="badge badge--accent">Push</span>
+      </div>
+      <div class="meta-grid">
+        <div class="meta"><span>Training</span><strong>Resistance Training</strong></div>
+        <div class="meta"><span>Primary muscle</span><strong>Quadriceps</strong></div>
+        <div class="meta"><span>Also hits</span><strong>Glutes</strong></div>
+      </div>
+      <div class="chip-row"><span class="chip">Barbell</span><span class="chip">Machine</span><span class="chip">Weights</span></div>
+      <div class="ex-notes"><wa-icon name="lightbulb"></wa-icon><span>Maintain neutral spine.</span></div>
+      <div class="ex-safety ex-safety--2"><wa-icon name="shield-halved"></wa-icon><span><strong>Spotter advised.</strong> Incorrect form can stress knees or lower back.</span></div>
+    </wa-card>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+      <span class="section-eyebrow">balanced for this muscle group</span>
+      <h2 class="section-title">Sample routine</h2>
+    </div>
+      <wa-card class="routine-card">
+      <div class="card-head">
+        <wa-icon name="clipboard-list"></wa-icon>
+        <div>
+          <div class="card-title">Sample routine</div>
+          <div class="muted">Run this order, rest 90–120s between sets</div>
+        </div>
+      </div>
+      <ol class="routine">
+        <li><span>Back Squat</span><span class="muted">4 × 6 reps</span></li>
+        <li><span>Romanian Deadlift</span><span class="muted">3 × 8 reps</span></li>
+        <li><span>Leg Press</span><span class="muted">3 × 10 reps</span></li>
+        <li><span>Bulgarian Split Squat</span><span class="muted">3 × 8 reps per leg</span></li>
+        <li><span>Seated Leg Curl</span><span class="muted">3 × 12 reps</span></li>
+        <li><span>Standing Calf Raise</span><span class="muted">4 × 15 reps</span></li>
+      </ol>
+    </wa-card>
+    </section>
+
+    <section>
+      <div class="section-head">
+      <span class="section-eyebrow">straight answers</span>
+      <h2 class="section-title">Common questions</h2>
+    </div>
+      <details class="faq">
+      <summary>How deep should I squat?</summary>
+      <p>As deep as you can while keeping a neutral spine and your heels down. Parallel is a solid goal; deeper is fine if your hips allow it.</p>
+    </details>
+<details class="faq">
+      <summary>Squats or deadlifts first?</summary>
+      <p>Alternate weekly. Whichever lift you want to improve goes first while you are fresh and strongest.</p>
+    </details>
+<details class="faq">
+      <summary>My knees hurt when I squat</summary>
+      <p>Lower the load, warm up thoroughly, and keep your knees tracking over your toes. Sharp or persistent pain is a cue to check form or see a professional.</p>
+    </details>
+<details class="faq">
+      <summary>How often should I train legs?</summary>
+      <p>One to two quality sessions per week. Legs recover more slowly than smaller muscle groups, so respect the rest.</p>
+    </details>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-row">
+      <wa-icon name="copyright"></wa-icon>
+      Kyle Yanch 2026
+    </div>
+  </footer>
+</body>
+</html>
